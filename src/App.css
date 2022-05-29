@@ -36,38 +36,6 @@
   user-select: none;
 }
 
-.Hand.winner {
-  background-image: url(./assets/yellow-win.svg);
-}
-
-.HandButton {
-  width: 166px;
-  height: 166px;
-  border: none;
-  outline: none;
-  text-align: center;
-  cursor: pointer;
-  background-color: transparent;
-  background-image: url(./assets/purple.svg);
-  background-repeat: no-repeat;
-  background-position: 50%;
-  background-size: contain;
-}
-
-.HandButton-icon {
-  opacity: 0.45;
-  width: 55px;
-  height: 55px;
-}
-
-.HandButton:hover {
-  background-image: url(./assets/yellow.svg);
-}
-
-.HandButton:hover .HandButton-icon {
-  opacity: 0.87;
-}
-
 .Score {
   display: inline-block;
   min-width: 130px;
